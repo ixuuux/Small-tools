@@ -16,3 +16,10 @@
   - 运行会显示当前公元日期的其他历法的日期
   - 支持:中国传统历法、中国阴历、佛历、中华民国年号、日本年号等
   - [示图](http://ww1.sinaimg.cn/large/005WOYz1ly1ftpsnf48yvj30a603ht8n.jpg)
+
+### 表盘(watch_plate.py)
+![](http://ww1.sinaimg.cn/large/007fldCely1fw90pqbxc3j30bo0d5aa3.jpg)
+
+### 随机数(random_number.py)
+  - 忽略数值大小顺序
+  - +-int

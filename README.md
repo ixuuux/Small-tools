@@ -23,3 +23,7 @@
 ### 随机数(random_number.py)
   - 忽略数值大小顺序
   - +-int
+
+### request(requests_get.py)
+  - 可自定义重试次数
+  - 适用于爬虫

@@ -10,3 +10,8 @@ def get(url='https://httpbin.org/ip', headers=None, proxies=None, try_num=0, try
         except:
             return get(url, try_num=try_num+1, try_max_num=try_max_num)
     return False
+
+
+if __name__ == '__main__':
+    res = get()
+    print(res)

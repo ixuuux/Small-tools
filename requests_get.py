@@ -2,10 +2,7 @@ import requests
 
 def get(url='https://httpbin.org/ip', headers=None, proxies=None, try_num=0, try_max_num=5, timeout=1):
     if try_num < try_max_num:
-        if headers:
-            head = headers
-        else:
-            head = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
+        head = headers or {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
                              '(KHTML, like Gecko) Chrome/68.0.3440.106 Safari/537.36'}
         try:
             response = requests.get(url=url, headers=head, proxies=proxies, timeout=timeout)
